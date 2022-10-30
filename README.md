@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<img src="https://systems.ethz.ch/_jcr_content/orgbox/image.imageformat.logo.1091186870.svg" align="center" width="350">
+<img src="https://github.com/oreol-ag/hyperion/blob/main/Oreol.png" align="center" width="350">
 </p>
 
 <h1 align="center">

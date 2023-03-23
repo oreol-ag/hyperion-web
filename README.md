@@ -10,13 +10,12 @@
   Hetero<i>genius</i> computing
 </h1>
 
-Modern workload diversity shows that relying on a single computing architecture isn’t practical anymore. With **HYPERION,** CPUs, GPUs, and FPGAs work together to deliver the peak performance your applications demand.
+Modern workload diversity shows that relying on a single computing architecture isn’t practical anymore. With **HYPERION,** multi-core CPUs, GPUs, and FPGAs work together to deliver the peak performance your applications demand.
 
 ## Sections
-* [CLI](./CLI/README.md#cli) - *Coming soon!*
-* [Examples](/examples/README.md#examples) - *Coming soon!*
-* [Model composer platform](https://www.amd-haccs.io/get-started.html)  - *Coming soon!*
-* [Infrastructure](docs/infrastructure.md#infrastructure) - *Coming soon!*
+* [FAQs](./faqs.md)
+* [Infrastructure]()
+* [Model composer platform]()
 
 # License
 For open source projects, say how it is licensed.

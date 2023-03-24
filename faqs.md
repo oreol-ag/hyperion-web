@@ -13,7 +13,7 @@ An FPGA (Field Programmable Gate Array) is commonly classified as a **spatial pr
 
 Unlike traditional ISA processors—designed to execute a sequence of memory-stored instructions in a program, running on a fixed hardware architecture that can run different instructions at different times—FPGAs start from the opposite perspective. Instead of being based around a machine that executes instructions on shared hardware, spatial implementations of a program conceptually take the entire program and lay it down at once on the device. This way, each instruction in the program receives its dedicated hardware that can execute simultaneously (in the same clock cycle) as all other instructions in the program—as they are spatially decoupled in the device. 
 
-In many ways, this differs from sharing hardware between instructions over time, as it happens with scalar and vector processor devices.
+In many ways, this differs from ISA devices: an FPGA does not have a pre-defined instruction set, and the logic functions it performs are entirely determined by the user's programming; furthermore, they do not share hardware between instructions over time—as it happens with scalar and vector processors.
 
 ## What type of accelerator is an ACAP?
 An ACAP (Adaptive Compute Acceleration Platform) is a type of programmable hardware accelerator that combines the capabilities of both GPUs (Graphics Processing Units) and FPGAs (Field Programmable Gate Arrays) into a single platform.

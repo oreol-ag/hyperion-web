@@ -1,5 +1,5 @@
 <p align="right">
-<a href="https://github.com/oreol-ag/employee-handbook">Oreol Employee Handbook</a>
+<a href="https://github.com/oreol-ag/employee-handbook#--employee-handbook">Oreol Employee Handbook</a>
 </p>
 
 <p align="center">

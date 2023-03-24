@@ -11,7 +11,7 @@ Instruction Set Architecture (ISA) is a type of computer architecture that defin
 
 The Von Neumann model and ISA architectures form the basis for many modern computer systems and are essential for understanding how computers work at a fundamental level.
 
-Multi-core CPUs and GPUs (Graphics Processing Unit) are considered ISA processors; FPGAs (Field Programmable Gate Array) is considered as a non-ISA device.
+Multi-core CPUs and GPUs (Graphics Processing Unit) are considered ISA processors; FPGAs (Field Programmable Gate Array) are considered as a non-ISA devices.
 
 ## The Von Neumann model
 The Von Neumann model describes a computer system as having a central processing unit (CPU), memory, input/output devices, and a bus that connects them all. In this model, the CPU fetches instructions and data from memory, executes the instructions, and stores the results back in memory. The Von Neumann model is used as a basis for many modern computer architectures, including [Instruction Set Architecture (ISA) processors.](#instruction-set-architecture-isa-processors)

@@ -16,7 +16,6 @@ Modern workload diversity shows that relying on a single computing architecture 
 * [FAQs](./faqs.md)
 * [Infrastructure]()
 * [Model composer platform]()
-* [Vocabulary](./vocabulary.md)
 
 # License
 For open source projects, say how it is licensed.

@@ -7,7 +7,6 @@
 </p>
 
 <h1 align="center">
-  HYPERION
 </h1>
 
 Modern workload diversity shows that relying on a single computing architecture isn’t practical anymore. With **HYPERION,** CPUs, GPUs, and FPGAs work together to deliver the peak performance your applications demand.

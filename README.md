@@ -1,5 +1,5 @@
 <p align="right">
-<a href="https://github.com/oreol-ag/heterogenius-computing#--heterogenius-computing">Advanced computing technologies</a>
+<a href="https://github.com/oreol-ag/landing-page#--advanced-computing-technologies">Advanced computing technologies</a>
 </p>
 
 <p align="center">

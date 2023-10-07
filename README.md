@@ -13,10 +13,8 @@ Hetero<i>genius</i> computing
 Modern workload diversity shows that relying on a single computing architecture isn’t practical anymore. With **HYPERION,** CPUs, GPUs, and FPGAs work together to deliver the peak performance your applications demand.
 
 ## Sections
-* [API]()
-* [CLI]()
-* [Examples]()
 * [FAQs](./faqs.md)
+* [Hyperion RunTime](./hrt.md)
 * [Infrastructure]()
 * [Programming model]()
 

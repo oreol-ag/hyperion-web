@@ -13,11 +13,12 @@ Hetero<i>genius</i> computing
 Modern workload diversity shows that relying on a single computing architecture isn’t practical anymore. With **HYPERION,** CPUs, GPUs, and FPGAs work together to deliver the peak performance your applications demand.
 
 ## Sections
-* [HRT](https://github.com/oreol-ag/hrt#hyperion-runtime)
-* [How it works]()
-* [Architecture]()
-* [Infrastructure]()
+* [API]()
+* [CLI]()
+* [Examples]()
 * [FAQs](./faqs.md)
+* [Infrastructure]()
+* [Programming model]()
 
 # License
 For open source projects, say how it is licensed.

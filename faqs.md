@@ -6,6 +6,8 @@
 
 # FAQs
 
+The following are frequently asked questions about **Hyperion and accelerators.**
+
 ## What type of accelerator is a multi-core CPU? 
 A multi-core CPU (Central Processing Unit) is a **scalar processor** that contains multiple processing cores on a single chip, each of which can execute instructions independently of others. While multi-core CPUs are not typically considered accelerators like GPUs or FPGAs, they can provide a significant performance boost for certain types of workloads, particularly those that involve a mix of sequential and parallel computations for multi-threaded applications.
 

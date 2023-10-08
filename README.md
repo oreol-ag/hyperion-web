@@ -2,6 +2,10 @@
 <a href="https://github.com/oreol-ag/oreol-web#--advanced-computing-technologies">Advanced computing technologies</a>
 </p>
 
+<p align="left">
+<a href="">How it works</a> <a href="">Tour features</a> <a href="https://github.com/oreol-ag/hyperion-web/blob/main/faqs.md">FAQs</a>
+</p>
+
 <p align="center">
 <img src="https://github.com/oreol-ag/hyperion/blob/main/Hyperion-removebg.png" align="center" width="350">
 </p>

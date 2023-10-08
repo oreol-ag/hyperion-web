@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/oreol-ag/hrt/blob/main/HRT-removebg.png" align="center" width="350">
+<img src="https://github.com/oreol-ag/hyperion-web/blob/main/HRT-removebg.png" align="center" width="350">
 </p>
 
 <h1 align="center">

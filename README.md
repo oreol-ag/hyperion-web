@@ -1,9 +1,9 @@
 <p align="right">
-<a href="https://github.com/oreol-ag/oreol-web#--advanced-computing-technologies">Advanced computing technologies</a>
+<a href="https://github.com/oreol-ag/oreol-web#--advanced-computing-technologies">Oreol</a>
 </p>
 
-<p align="left">
-<a href="">How it works</a> <a href="">Tour features</a> <a href="https://github.com/oreol-ag/hyperion-web/blob/main/faqs.md">FAQs</a>
+<p align="center">
+<a href="">[How it works]</a> <a href="">[Tour features]</a> <a href="https://github.com/oreol-ag/hyperion-web/blob/main/faqs.md">[FAQs]</a>
 </p>
 
 <p align="center">

@@ -16,18 +16,13 @@
             font-size: 30px;
             margin: 0;
             padding: 0;
-            text-align: left;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start; /* Align items to the start (left) of the flex container */
-            justify-content: center;
-            height: 100vh; /* Make sure the body takes up the full height of the viewport */
+            text-align: center;
         }
 
         header {
             background-color: #ffffff; /* White background */
             padding: 10px;
-            text-align: left; /* Align the text to the left */
+            text-align: right;
         }
 
         header img {
@@ -36,13 +31,13 @@
             margin-bottom: 20px; /* Added spacing between image and links */
         }
 
-        .center-container {
-            text-align: center;
-            color: rgb(89, 101, 104);
+        #main-image {
+            max-width: 100%;
+            margin: 0 auto; /* Center the image */
         }
 
-        .center-container img {
-            max-width: 100%; /* Ensure the image takes up the full width of its container */
+        #text-below-image {
+            color: rgb(89, 101, 104);
         }
     </style>
 </head>
@@ -52,10 +47,8 @@
         <img src="oreol.png" alt="oreol">
     </header>
 
-    <div class="center-container">
-        <img src="Hyperion-removebg.png" alt="Hyperion">
-        <p>Heterogenius computing</p>
-    </div>
+    <img id="main-image" src="Hyperion-removebg.png" alt="Hyperion">
+    <p id="text-below-image">Heterogenius computing</p>
 
 </body>
 </html>

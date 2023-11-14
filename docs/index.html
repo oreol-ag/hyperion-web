@@ -17,6 +17,11 @@
             margin: 0;
             padding: 0;
             text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Make sure the body takes up the full height of the viewport */
         }
 
         header {
@@ -30,6 +35,15 @@
             margin-right: 20px; /* Increased left margin of your logo */
             margin-bottom: 20px; /* Added spacing between image and links */
         }
+
+        .center-container {
+            text-align: center;
+            color: rgb(89, 101, 104);
+        }
+
+        .center-container img {
+            max-width: 100%; /* Ensure the image takes up the full width of its container */
+        }
     </style>
 </head>
 <body>
@@ -38,7 +52,10 @@
         <img src="oreol.png" alt="oreol">
     </header>
 
-    <!-- color: rgb(89, 101, 104); -->
+    <div class="center-container">
+        <img src="Hyperion-removebg.png" alt="Hyperion">
+        <p>Heterogenius computing</p>
+    </div>
 
 </body>
 </html>

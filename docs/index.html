@@ -31,15 +31,22 @@
             margin-bottom: 20px; /* Added spacing between image and links */
         }
 
-        #main-image {
+        #main-image-container {
             max-width: 100%;
-            margin: 0 auto; /* Center the image */
-            transform: scale(0.75); /* Scale the image by 1.5 times */
+            margin: 0 auto; /* Center the container */
+            transform: scale(0.75); /* Scale the image container by 0.75 times */
+        }
+
+        #main-image {
+            width: 100%; /* Make the image width 100% of the container */
         }
 
         #text-below-image {
             color: rgb(89, 101, 104);
-            font-style: italic; /* Italicize the text */
+        }
+        
+        #text-below-image em {
+            font-style: italic; /* Italicize the text within the em tag */
         }
     </style>
 </head>
@@ -49,8 +56,11 @@
         <img src="oreol.png" alt="oreol">
     </header>
 
-    <img id="main-image" src="Hyperion-removebg.png" alt="Hyperion">
-    <p id="text-below-image">Hetero<i>genius</i> computing</p>
+    <div id="main-image-container">
+        <img id="main-image" src="Hyperion-removebg.png" alt="Hyperion">
+    </div>
+    
+    <p id="text-below-image">Hetero<em>genius</em> computing</p>
 
 </body>
 </html>

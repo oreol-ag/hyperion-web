@@ -44,7 +44,7 @@
         }
 
         header img {
-            max-width: 150px; /* Increased maximum width of your logo */
+            max-width: 80px; /* Increased maximum width of your logo */
             margin-right: 20px; /* Increased right margin of your logo */
             margin-bottom: 20px; /* Added spacing between image and links */
         }
@@ -59,16 +59,32 @@
             color: rgb(89, 101, 104);
             font-family: 'GothamRoundedMedium', sans-serif; /* Apply the medium font to this element */
             font-size: 18px; /* Adjust the font size as needed */
-            margin-top: 100px; /* Remove default bottom margin to reduce space */
+            margin-top: 0px; /* Remove default bottom margin to reduce space */
             margin-bottom: 0px; /* Remove default bottom margin to reduce space */
         }
         
         #title {
-            color: rgb(89, 101, 104);
             font-family: 'GothamRoundedBold', sans-serif; /* Apply the bold font to this element */
             font-size: 36px; /* Adjust the font size as needed */
             margin-top: 0px; /* Remove default bottom margin to reduce space */
             margin-bottom: 0px; /* Remove default bottom margin to reduce space */
+        }
+
+        #title .part1 {
+            color: rgb(0, 118, 186); /* Set the text color to RGB 0 118 186 */
+        }
+
+        #title .part2 {
+            /* font-style: italic;  */
+            background: linear-gradient(to right, rgb(0, 118, 186), rgb(255, 66, 161)); /* Apply gradient to part2 */
+            -webkit-background-clip: text; /* Clip text to background gradient (for WebKit browsers) */
+            background-clip: text; /* Clip text to background gradient */
+            color: transparent; /* Set text color to transparent to reveal gradient background */
+            line-height: 1.2; /* Adjust line height to prevent cutting */
+        }
+
+        #title .part3 {
+            color: rgb(255, 66, 161); /* Set the text color to RGB 0 118 186 */
         }
 
         .custom-text {
@@ -83,21 +99,23 @@
         .button {
             font-family: 'GothamRoundedMedium', sans-serif;
             font-size: 20px;
-            background-color: rgb(89, 101, 104);
+            background: linear-gradient(to right, rgb(0, 118, 186), rgb(255, 66, 161));
             color: #ffffff; /* Set text color to white */
             padding: 10px 20px;
             border-radius: 30px; /* Set border radius for rounded ends (adjust as needed) */
             display: inline-block;
             text-decoration: none; /* Remove underline from the link */
             margin-top: 27px; /* Adjust top margin as needed */
-            margin-bottom: 27px; /* Adjust top margin as needed */
+            margin-bottom: 15px; /* Adjust top margin as needed */
         }
 
-         #main-image {
-            width: 200px; /* Set the width to a specific value in pixels */
+        #main-image {
+            width: 700px; /* Set the width to a specific value in pixels */
             margin: 0 auto; /* Center the image */
-            margin-top: 100px; /* Adjust top margin as needed */
-            margin-bottom: 40px; /* Adjust top margin as needed */
+            margin-top: 0px; /* Adjust top margin as needed */
+            margin-bottom: 20px; /* Adjust top margin as needed */
+            border-radius: 10px;
+            /* box-shadow: 0px 10px 20px rgba(255, 66, 161, 0.3); */
         }
 
         .foot-text {
@@ -132,21 +150,21 @@
 </head>
 <body>
 
-   <!--  <header>
-        <a href="https://oreol-ag.github.io/oreol-web/index.html">
-            <img src="oreol.png" alt="oreol">
-        </a>
-    </header> -->
+   <header>
+        <!-- <a href="https://oreol-ag.github.io/oreol-web/index.html"> -->
+            <img src="HRT-removebg.png" alt="oreol">
+        <!-- </a> -->
+    </header>
 
     <div id="main-content">
         <p id="text">Scalar. Vector. Spatial. Together.</p>
-        <p id="title">Hetero<i>genius</i> computing</p>
+        <p id="title"><span class="part1">Hetero</span><span class="part2"><i>genius </i></span><span class="part3"> computing</span></p>
 
         <p class="custom-text">Modern workload diversity shows that relying on a single computing architecture isn’t practical anymore. With Hyperion, CPUs, GPUs, and FPGAs work together to deliver the peak performance your applications demand.</p>
 
         <a href="faqs.html" class="button">Hyperion FAQs</a>
 
-        <img id="main-image" src="Hyperion-removebg.png" alt="Hyperion">
+        <img id="main-image" src="visual-code.png" alt="Hyperion">
 
         <p class="foot-text">Need help? Email <a href="mailto:hey@oreol.ch">hey@oreol.ch</a></p>
         <p class="copyright-text" id="copyright"></p>

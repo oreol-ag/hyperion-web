@@ -153,13 +153,17 @@
     </div>
 
     <script>
-        // JavaScript to dynamically set the copyright year
+        // JavaScript to dynamically set the copyright year and day of the week
         document.addEventListener('DOMContentLoaded', function () {
             var currentYear = new Date().getFullYear();
+            var daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            var today = new Date().getDay();
+            var dayOfWeek = daysOfWeek[today];
+    
             var copyrightElement = document.getElementById('copyright');
-            copyrightElement.innerHTML = 'Hyperion was born and raised in Lucerne, Switzerland &copy; 2021-' + currentYear + ' <a href="https://oreol-ag.github.io/oreol-web/index.html">Oreol KLG.</a> All rights reserved.';
+            copyrightElement.innerHTML = 'Hyperion was crafted and engineered in Lucerne, Switzerland &copy; 2021-' + currentYear + ' <a href="https://oreol-ag.github.io/oreol-web/index.html">Oreol.</a> Have a nice ' + dayOfWeek + '!';
         });
-    </script>
+    </script>    
 
 </body>
 </html>

@@ -149,9 +149,19 @@
         <img id="main-image" src="Hyperion-removebg.png" alt="Hyperion">
 
         <p class="foot-text">Need help? Email <a href="mailto:hey@oreol.ch">hey@oreol.ch</a></p>
-        <p class="copyright-text">Hyperion is designed in Lucerne (Switzerland) by <a href="https://oreol-ag.github.io/oreol-web/index.html">Oreol.</a> Have a nice Wednesday!</p>
+        <!-- <p class="copyright-text">Hyperion was born and raised in Lucerne (Switzerland). Copyright 2021-2023 <a href="https://oreol-ag.github.io/oreol-web/index.html">Oreol KLG.</a> All rights reserved.</p> -->
+        <p class="copyright-text" id="copyright"></p>
 
     </div>
+
+    <script>
+        // JavaScript to dynamically set the copyright year
+        document.addEventListener('DOMContentLoaded', function () {
+            var currentYear = new Date().getFullYear();
+            var copyrightElement = document.getElementById('copyright');
+            copyrightElement.textContent = 'Hyperion was born and raised in Lucerne (Switzerland). Copyright 2021-' + currentYear + ' © <a href="https://oreol-ag.github.io/oreol-web/index.html">Oreol KLG.</a> All rights reserved.';
+        });
+    </script>
 
 </body>
 </html>

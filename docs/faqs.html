@@ -23,10 +23,11 @@
             margin: 0;
             padding: 0;
             text-align: left;
+            background: linear-gradient(to right, rgb(0, 118, 186), rgb(255, 66, 161), #ffffff);
         }
 
         header {
-            background-color: #ffffff; /* White background */
+            background: linear-gradient(to right, rgb(0, 118, 186), rgb(255, 66, 161), #ffffff);
             padding: 10px;
             text-align: right;
         }
@@ -39,7 +40,7 @@
 
         a {
             text-decoration: none;
-            color: rgb(89, 101, 104);
+            color: rgb(255, 255, 255);
             transition: color 0.3s;
             display: inline-block;
         }
@@ -49,14 +50,14 @@
         }
 
         li a:hover {
-            color: rgb(89, 101, 104); /* Dark gray on hover */
+            color: rgb(255, 255, 255); /* Dark gray on hover */
         }
 
         /* Additional styles */
         p, strong, h1, h2, h3, ul, li {
             font-family: 'GothamRoundedMedium', sans-serif;
             font-size: 20px;
-            color: rgb(89, 101, 104);
+            color: rgb(255, 255, 255);
         }
 
         strong {
@@ -270,7 +271,7 @@
 
     <script>
         function changeColor(element) {
-            element.style.color = 'rgb(89, 101, 104)'; // Dark gray
+            element.style.color = 'rgb(255, 255, 255)'; // Dark gray
 
             const otherLinks = document.querySelectorAll('a:not(:hover)');
             otherLinks.forEach(otherLink => {
@@ -282,7 +283,7 @@
             const links = document.querySelectorAll('a');
 
             links.forEach(link => {
-                link.style.color = 'rgb(89, 101, 104)'; // Reset all links to the original color
+                link.style.color = 'rgb(255, 255, 255)'; // Reset all links to the original color
             });
         }
     </script>

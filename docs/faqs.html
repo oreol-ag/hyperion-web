@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced computing technologies</title>
+    <style>
+        @font-face {
+            font-family: 'GothamRoundedMedium';
+            src: local('GothamRoundedMedium'), url('fonts/GothamRoundedMedium_21022.ttf') format('truetype');
+            font-weight: 600; /* Adjust the font weight as needed */
+        }
+
+        @font-face {
+            font-family: 'GothamRoundedBook';
+            src: local('GothamRoundedBook'), url('fonts/GothamRoundedBook_21018.ttf') format('truetype');
+            font-weight: normal; /* Adjust the font weight as needed */
+        }
+
+        body {
+            font-family: 'GothamRoundedMedium', sans-serif;
+            font-size: 30px;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+
+        header {
+            background-color: #ffffff; /* White background */
+            padding: 10px;
+            text-align: right;
+        }
+
+        header img {
+            max-width: 150px; /* Increased maximum width of your logo */
+            margin-right: 20px; /* Increased left margin of your logo */
+            margin-bottom: 20px; /* Reduced spacing between image and links */
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(89, 101, 104);
+            transition: color 0.3s;
+            display: inline-block;
+        }
+
+        li a {
+            font-size: 40px; /* Set the font size for the links within ul.menu */
+        }
+
+        li a:hover {
+            color: rgb(89, 101, 104); /* Dark gray on hover */
+        }
+
+        /* Additional styles */
+        p, strong, h1, h2, h3, ul, li {
+            font-family: 'GothamRoundedMedium', sans-serif;
+            font-size: 20px;
+            color: rgb(89, 101, 104);
+        }
+
+        strong {
+            font-size: 24px; /* Set the font size for the strong tag */
+        }
+
+        h1, h2, h3 {
+            font-weight: bold;
+            margin-left: 100px; /* Added left margin to h1, h2, h3 */
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-bottom: 0px; /* Further reduced margin-bottom for h1 */
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        h3 {
+            font-size: 28px;
+        }
+
+        p.content {
+            margin-left: 100px; /* Adjusted margin for the new paragraph */
+            margin-right: 800px; /* Added right margin for the new paragraph */
+            font-size: 24px; /* Set the font size for the new paragraph */
+            font-family: 'GothamRoundedBook', sans-serif; /* Applied the new font to the paragraph */
+        }
+
+        /* Renamed "menu inline" to "menu navigate" */
+        ul.menu.navigate {
+            display: inline-block;
+            margin-left: 55px; /* Adjusted margin for the second set of links */
+            margin-bottom: -20px; /* Further reduced margin-bottom for ul.menu.navigate */
+        }
+
+        /* Styling for the second set of links */
+        ul.menu.navigate li {
+            display: inline-block;
+            margin-right: 30px;
+        }
+
+        /* Font size for the inline menu text */
+        ul.menu.navigate li a {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="oreol.png" alt="oreol">
+    </header>
+
+    <!-- <ul class="menu navigate">
+        <li><a href="" onmouseover="changeColor(this)" onmouseout="resetColor()" style="font-size: 80px; margin-right: -25px;">&#9679;</a></li>
+        <li><a href="index.html" onmouseover="changeColor(this)" onmouseout="resetColor()" style="font-size: 80px; margin-right: -25px;">&#9679;</a></li>
+        <li><a href="" onmouseover="changeColor(this)" onmouseout="resetColor()" style="font-size: 80px;">&#9679;</a></li>
+    </ul> -->
+
+    <ul class="menu navigate">
+        <li><a href="index.html" style="font-size: 80px;">&#9679;</a></li>
+    </ul>
+    
+    <!-- Content starts -->
+    <h1>Research</h1>
+
+    <p class="content">Our mission is to drive innovation for hardware engineers, data
+    scientists, and research institutions by providing cutting-edge
+    computing technologies. We draw inspiration from all the researchers and
+    collaborators we have the pleasure to work with—so they are, in fact,
+    the ones shaping our product designs. <strong>Explore the key references
+    and resources that inspire us.</strong></p>
+    <h2 id="a">A</h2>
+    <ul>
+    <li style="list-style-type: none;"><p class="content"><a href="https://www.dropbox.com/scl/fi/xca5tbxr23aoztkcoxqag/ACCL_H2RC21_Xilinx_submitted_version.pdf?rlkey=atr0zcrl2xkvzc0wp708g05kb&dl=0" style="font-size: 24px;">ACCL: FPGA-Accelerated Collectives over 100 Gbps TCP-IP</a></li></p>
+    <li style="list-style-type: none;"><p class="content"><a href="https://github.com/Xilinx/open-nic" style="font-size: 24px;">AMD OpenNIC Project</a></li></p>
+    <li style="list-style-type: none;"><p class="content"><a href="https://www.dropbox.com/scl/fi/0kue7ql5atkuwc73c03t0/Abel-hoti25-AnFpgaPlatformForHyperscalers.pdf?rlkey=y84aguny6zozimszqot4uuqbs&dl=0" style="font-size: 24px;">An FPGA Platform for Hyperscalers</a></li></p>
+    </ul>
+    <h2 id="d">D</h2>
+    <ul>
+    <li style="list-style-type: none;"><p class="content"><a href="https://www.dropbox.com/scl/fi/pn71c50bsy525uobww8ej/osdi20-korolija.pdf?rlkey=oflv91w2bk9agub1l4huz5c15&dl=0" style="font-size: 24px;">Do OS abstractions make sense on FPGAs?</a></li></p>
+    </ul>
+    <h2 id="e">E</h2>
+    <ul>
+    <li style="list-style-type: none;"><p class="content"><a href="https://www.dropbox.com/scl/fi/wwd6cdr1v793hf5kcm138/EasyNet_FPL_camera_ready.pdf?rlkey=a3o4hp2fbi74nqicrh8cmhqnx&dl=0" style="font-size: 24px;">EasyNet: 100 Gbps Network for HLS</a></li></p>
+    <li style="list-style-type: none;"><p class="content"><a href="https://www.dropbox.com/scl/fi/l9ke38xhazmf0io7mzwb5/CBDCOM2015-EnablingFPGAsinHyperscaleDataCenters.pdf?rlkey=cwenvl1gp2gqieg9pyh5hq8vv&dl=0" style="font-size: 24px;">Enabling FPGAs in Hyperscale Data Centers</a></li></p>
+    <li style="list-style-type: none;"><p class="content"><a href="https://github.com/esnet/esnet-smartnic-hw" style="font-size: 24px;">ESnet SmartNIC Hardware Design</a></li></p>
+    </ul>
+    <h2 id="h">H</h2>
+    <ul>
+    <li style="list-style-type: none;"><p class="content"><a href="https://www.dropbox.com/scl/fi/qrz9g6x2obl4h2jix6wfd/hacc.pdf?rlkey=z6zwmqp6bfajiwgly43cqdnz9&dl=0" style="font-size: 24px;">Heterogeneous Accelerated Compute Cluster - ETH Zürich</a></li></p>
+    </ul>
+    <h2 id="s">S</h2>
+    <ul>
+    <li style="list-style-type: none;"><p class="content"><a href="https://www.dropbox.com/scl/fi/8vyim0c05fvr6oi4j1ljr/sgrt.pdf?rlkey=rhg2tks67aqj4tjw5jh6jbehb&dl=0" style="font-size: 24px;">Systems Group RunTime - ETH Zürich</a></li></p>
+    </ul>
+    <!-- Content ends -->
+
+    <script>
+        function changeColor(element) {
+            element.style.color = 'rgb(89, 101, 104)'; // Dark gray
+
+            const otherLinks = document.querySelectorAll('a:not(:hover)');
+            otherLinks.forEach(otherLink => {
+                otherLink.style.color = 'rgb(150, 150, 150)'; // Lighter gray
+            });
+        }
+
+        function resetColor() {
+            const links = document.querySelectorAll('a');
+
+            links.forEach(link => {
+                link.style.color = 'rgb(89, 101, 104)'; // Reset all links to the original color
+            });
+        }
+    </script>
+
+</body>
+</html>

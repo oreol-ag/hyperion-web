@@ -69,4 +69,4 @@ On the other hand, some examples of applications that are better suited for FPGA
 4. Network packet processing and network security
 5. Video and image processing
 
-However, with HYPERION both FPGAs and GPUs can be used in conjunction with each other to accelerate complex workloads that require both parallel processing and low latency.
+However, with Hyperion both FPGAs and GPUs can be used in conjunction with each other to accelerate complex workloads that require both parallel processing and low latency.

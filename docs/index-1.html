@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heterogenius computing</title>
+    <style>
+        @font-face {
+            font-family: 'GothamRoundedBold';
+            src: local('GothamRoundedBold'), url('fonts/GothamRoundedBold_21016.ttf') format('truetype');
+            font-weight: bold; /* Adjust the font weight as needed */
+        }
+        
+        @font-face {
+            font-family: 'GothamRoundedMedium';
+            src: local('GothamRoundedMedium'), url('fonts/GothamRoundedMedium_21022.ttf') format('truetype');
+            font-weight: 600; /* Adjust the font weight as needed */
+        }
+
+        @font-face {
+            font-family: 'GothamRoundedBook';
+            src: local('GothamRoundedBook'), url('fonts/GothamRoundedBook_21018.ttf') format('truetype');
+            font-weight: 600; /* Adjust the font weight as needed */
+        }
+
+        body {
+            font-family: 'GothamRoundedMedium', sans-serif;
+            font-size: 30px;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: linear-gradient(to top, rgb(255, 255, 255), rgb(172, 212, 234), rgb(255, 255, 255) 68%); 
+            /* background: radial-gradient(circle, rgb(255, 255, 255), rgb(220, 214, 117) 30%, rgb(255, 255, 255) 40%);*/
+            /*background: linear-gradient(to top, rgb(255, 66, 161), rgb(255, 255, 255)); */
+            /*rgb(249, 247, 245) */
+        }
+
+        header {
+            background-color: #ffffff; /* White background */
+            padding: 10px;
+            text-align: right;
+        }
+
+        header a {
+            text-decoration: none; /* Remove underline from the link */
+            color: rgb(89, 101, 104); /* Set link color to gray */
+            display: inline-block; /* Make the link behave like a block-level element */
+        }
+
+        header img {
+            max-width: 80px; /* Increased maximum width of your logo */
+            margin-right: 20px; /* Increased right margin of your logo */
+            margin-bottom: 5px; /* Added spacing between image and links */
+        }
+
+        #main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #text {
+            color: rgb(89, 101, 104);
+            font-family: 'GothamRoundedMedium', sans-serif; /* Apply the medium font to this element */
+            font-size: 18px; /* Adjust the font size as needed */
+            margin-top: 15px; /* Remove default bottom margin to reduce space */
+            margin-bottom: 0px; /* Remove default bottom margin to reduce space */
+        }
+        
+        #title {
+            font-family: 'GothamRoundedBold', sans-serif; /* Apply the bold font to this element */
+            font-size: 36px; /* Adjust the font size as needed */
+            margin-top: 0px; /* Remove default bottom margin to reduce space */
+            margin-bottom: 0px; /* Remove default bottom margin to reduce space */
+        }
+
+        #title .part1 {
+            color: rgb(0, 118, 186); /* Set the text color to RGB 0 118 186 */
+        }
+
+        #title .part2 {
+            /* font-style: italic;  */
+            background: linear-gradient(to right, rgb(0, 118, 186), rgb(255, 66, 161)); /* Apply gradient to part2 */
+            -webkit-background-clip: text; /* Clip text to background gradient (for WebKit browsers) */
+            background-clip: text; /* Clip text to background gradient */
+            color: transparent; /* Set text color to transparent to reveal gradient background */
+            line-height: 1.2; /* Adjust line height to prevent cutting */
+        }
+
+        #title .part3 {
+            color: rgb(255, 66, 161); /* Set the text color to RGB 0 118 186 */
+        }
+
+        .custom-text {
+            font-size: 20px;
+            margin-left: 300px;
+            margin-right: 300px;
+            color: rgb(0, 0, 0); /* Set the text color to gray */
+            margin-top: 20px; /* Adjust top margin as needed */
+            margin-bottom: 0px;
+        }
+
+        .button {
+            font-family: 'GothamRoundedMedium', sans-serif;
+            font-size: 20px;
+            background: linear-gradient(to right, rgb(0, 118, 186), rgb(255, 66, 161));
+            color: #ffffff; /* Set text color to white */
+            padding: 10px 20px;
+            border-radius: 30px; /* Set border radius for rounded ends (adjust as needed) */
+            display: inline-block;
+            text-decoration: none; /* Remove underline from the link */
+            margin-top: 27px; /* Adjust top margin as needed */
+            margin-bottom: 15px; /* Adjust top margin as needed */
+        }
+
+        #main-image {
+            width: 700px; /* Set the width to a specific value in pixels */
+            margin: 0 auto; /* Center the image */
+            margin-top: 0px; /* Adjust top margin as needed */
+            margin-bottom: 20px; /* Adjust top margin as needed */
+            border-radius: 10px;
+            /* box-shadow: 0px 10px 20px rgba(255, 66, 161, 0.3); */
+        }
+
+        .foot-text {
+            font-size: 15px;
+            margin-left: 300px;
+            margin-right: 300px;
+            color: rgb(89, 101, 104); /* Set the text color to gray */
+            margin-top: 0px; /* Adjust top margin as needed */
+            margin-bottom: 0px;
+        }
+
+        .foot-text a {
+            color: rgb(89, 101, 104); /* Set the link color to gray */
+            text-decoration: underline; /* Remove underline from the link */
+        }
+
+        .copyright-text {
+            font-family: 'GothamRoundedBook', sans-serif;
+            font-size: 15px;
+            margin-left: 300px;
+            margin-right: 300px;
+            color: rgb(89, 101, 104); /* Set the text color to gray */
+            margin-top: 0px; /* Adjust top margin as needed */
+            margin-bottom: 20px;
+        }
+
+        .copyright-text a {
+            color: rgb(89, 101, 104); /* Set the link color to gray */
+            text-decoration: underline; /* Remove underline from the link */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="HRT-removebg.png" alt="oreol">
+    </header>
+
+    <div id="main-content">
+        <p id="text">Scalar. Vector. Spatial. Together.</p>
+        <p id="title"><span class="part1">Hetero</span><span class="part2"><i>genius </i></span><span class="part3"> computing</span></p>
+
+        <p class="custom-text">Modern workload diversity shows that relying on a single computing architecture isn’t practical anymore. With Hyperion, CPUs, GPUs, and FPGAs work together to deliver the peak performance your applications demand.</p>
+
+        <a href="faqs.html" class="button">Hyperion FAQs</a>
+
+        <img id="main-image" src="visual-code.png" alt="Hyperion">
+
+        <p class="foot-text">Need help? Email <a href="mailto:hey@oreol.ch">hey@oreol.ch</a></p>
+        <p class="copyright-text" id="copyright"></p>
+    </div>
+
+    <script>
+        // JavaScript to dynamically set the copyright year and day of the week
+        document.addEventListener('DOMContentLoaded', function () {
+            var currentYear = new Date().getFullYear();
+            var daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            var today = new Date().getDay();
+            var dayOfWeek = daysOfWeek[today];
+    
+            var copyrightElement = document.getElementById('copyright');
+            copyrightElement.innerHTML = 'Hyperion was crafted and engineered by <a href="https://oreol-ag.github.io/oreol-web/index.html">Oreol</a> in Lucerne &copy; Oreol KLG 2021-' + currentYear + '. Have a nice ' + dayOfWeek + '!';
+        });
+    </script>    
+
+</body>
+</html>

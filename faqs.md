@@ -9,10 +9,10 @@
 The following are frequently asked questions about **Hyperion and its hardware accelerators.**
 
 ## What is Hyperion?
-Hyperion is a ready-to-use acceleration platform combining energy-efficient servers with advanced acceleration devices such as ACAPs, FPGAs, multi-core CPUs, and GPUs. It also includes a customized command-line interpreter (CLI) and an API, bundled as Hyperion RunTime (HRT), for seamless management and programming of these devices.
+**Hyperion** is an on-premises acceleration platform that streamlines the development of complex acceleration applications by combining modern energy-efficient multi-core servers, reconfigurable and specialized processors (such as ACAPs, FPGAs, multi-core CPUs, and GPUs), and a customized RunTime. With a focus on empowering specialized hardware engineers, data scientists, and research institutions, Hyperion is specifically designed to address the demands of modern workloads solving diverse computing-intensive tasks.
 
 ## Who is Hyperion intended for? 
-Hyperion is created to simplify the process of developing complex acceleration applications, primarily serving highly specialized acceleration engineers working at research institutions or universities. These engineers typically benefit from dedicated on-site hardware for development, testing, and staging before transitioning to production.
+Hyperion is tailored for highly specialized acceleration engineers working in research laboratories or universities. Alongside its RunTime, these engineers benefit not just from a dedicated on-site platform for development and testing but also from its integrated command-line interpreter (CLI) and an API, enabling seamless management and programming of all computing devices.
 
 ## Is Hyperion hosted in the public cloud? 
 No, Hyperion is designed to be an on-premises resource for edge computing. However, you have the option to build your private cloud using Hyperion servers and offer your accelerated services by exposing them.
